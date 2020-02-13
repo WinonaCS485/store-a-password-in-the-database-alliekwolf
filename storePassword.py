@@ -217,5 +217,9 @@ while True:
         print(f'\n{invalid_length_msg}\n')
 
 
+# Close connection to database
+connection.close()
+
+
 # END OF PROGRAM
 
